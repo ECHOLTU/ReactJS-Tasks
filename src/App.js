@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Login from './components/login.component'
 import SignUp from './components/signup.component'
 import Home from './components/home.component'
-import Add from './components/Add'
+import Add from './components/add.component'
 
 function App() {
   return (
