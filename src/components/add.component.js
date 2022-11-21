@@ -21,6 +21,7 @@ export default function Home() {
 
     return (
        <div style={{ padding: "10px 20px", textAlign: "center", color: "white"}}>
+        <img src="LogoCA.png"alt="Ca LOGO" width={'500px'}></img>
               <h1 style={{ padding: "30px 20px", textAlign: "center", color: "Salmon"}}>Add Page</h1>
               <button style={{ padding: "10px 20px", itemsAlign: "center", color: "black"}} onClick={HandleLogout}>Sign Out</button>
        </div>

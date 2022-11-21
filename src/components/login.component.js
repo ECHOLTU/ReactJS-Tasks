@@ -49,6 +49,7 @@ export default function Login() {
   
     return (
       <form onSubmit={HandleLogin}>
+        <img src="LogoCA.png"alt="Ca LOGO" width={'500px'}></img>
         <h3>Sign In</h3>
         {loginError && <p>{loginError}</p>}
 

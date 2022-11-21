@@ -48,6 +48,7 @@ export default function SignUp() {
 
     return (
       <form onSubmit={HandleRegister}>
+        <img src="LogoCA.png"alt="Ca LOGO" width={'500px'}></img>
         <h3>Sign Up</h3>
         {regError && <p>{regError}</p>}
 
@@ -65,9 +66,6 @@ export default function SignUp() {
           <button type="submit" className="btn btn-primary">Sign Up</button>
         </div>
 
-        <p className="forgot-password text-right">Already registered <a href="/sign-in">sign in?</a></p>
-
       </form>
     )
   }
-// }
